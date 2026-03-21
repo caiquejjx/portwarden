@@ -1,1 +1,23 @@
 .zig-cache
+
+## Build generated
+build/
+DerivedData/
+
+## Swift Package Manager
+.build/
+
+## Xcode
+.swiftpm/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcshareddata/
+!xcshareddata/xcschemes/
+*.xcscmblueprint
+*.xccheckout
+
+## macOS
+.DS_Store
+.localized
+
+zig-out/
